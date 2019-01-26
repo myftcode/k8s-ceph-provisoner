@@ -1,5 +1,8 @@
 # k8s v1.13.2 使用ceph的rbd作为动态存储类的后端磁盘
--
+
+- 文件test.pvc.yaml：创建pvc，用storageclass自动创建pv
+- 文件test.nginx.yaml：创建一个nginx应用来使用存储
+
 
 # 部署时使用的命令
 ## 1.创建ceph的rbd存储池
